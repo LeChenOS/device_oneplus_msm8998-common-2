@@ -251,6 +251,9 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
 
+# Media
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
 # NFC
 BOARD_NFC_CHIPSET := pn553
 TARGET_USES_NQ_NFC := true
