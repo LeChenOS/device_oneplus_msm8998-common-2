@@ -100,6 +100,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_min_cpu=2 \
     ro.vendor.qti.core_ctl_max_cpu=4
 
+# Fling
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.min.fling_velocity=150 \
+    ro.max.fling_velocity=20000
+
 # Data
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.use_data_netmgrd=true \
