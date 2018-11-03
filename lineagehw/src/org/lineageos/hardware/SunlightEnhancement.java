@@ -19,7 +19,7 @@ package org.lineageos.hardware;
 
 import android.util.Log;
 
-import org.lineageos.internal.util.FileUtils;
+import com.android.internal.util.aosip.FileUtils;
 
 /**
  * Facemelt mode!
